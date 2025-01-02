@@ -1,0 +1,38 @@
+{
+  "name": "@toyEle/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @toyEle/play dev",
+    "docs:dev": "pnpm --filter @toyEle/docs docs:dev",
+    "docs:build": "pnpm --filter @toyEle/docs docs:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.10.3",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "@vue/tsconfig": "^0.7.0",
+    "postcss-color-mix": "^1.1.0",
+    "postcss-each": "^1.1.0",
+    "postcss-each-variables": "^0.3.0",
+    "postcss-for": "^2.1.1",
+    "postcss-nested": "^7.0.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.2.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "vue": "^3.5.13",
+    "toyEle": "workspace:*",
+    "@toyEle/hooks": "workspace:*",
+    "@toyEle/utils": "workspace:*",
+    "@toyEle/theme": "workspace:*"
+  }
+}
